@@ -16,7 +16,6 @@ require (
 	github.com/coreos/go-semver v0.3.0
 	github.com/danieljoos/wincred v1.1.2 // indirect
 	github.com/go-git/go-git/v5 v5.4.2
-	github.com/godbus/dbus/v5 v5.0.6 // indirect
 	github.com/google/btree v1.0.1 // indirect
 	github.com/google/go-github/v41 v41.0.0
 	github.com/google/gops v0.3.22
@@ -49,7 +48,7 @@ require (
 	github.com/twpayne/go-xdg/v6 v6.0.0
 	github.com/xanzy/ssh-agent v0.3.1 // indirect
 	github.com/yuin/goldmark v1.4.4 // indirect
-	github.com/zalando/go-keyring v0.1.1
+	github.com/zalando/go-keyring v0.2.1
 	go.etcd.io/bbolt v1.3.6
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.7.0
