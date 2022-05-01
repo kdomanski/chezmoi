@@ -83,7 +83,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Cache Vagrant Boxes
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: ~/.vagrant.d
         key: ${{ runner.os }}-vagrant-${{ env.VAGRANT_BOX }}-${{ hashFiles('assets/vagrant/debian11-i386.Vagrantfile') }}
@@ -112,7 +112,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Cache Vagrant Boxes
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: ~/.vagrant.d
         key: ${{ runner.os }}-vagrant-${{ env.VAGRANT_BOX }}-${{ hashFiles('assets/vagrant/freebsd13.Vagrantfile') }}
@@ -133,7 +133,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Cache Go modules
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: ~/go/pkg/mod
         key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
@@ -169,7 +169,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Cache Vagrant Boxes
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: ~/.vagrant.d
         key: ${{ runner.os }}-vagrant-${{ env.VAGRANT_BOX }}-${{ hashFiles('assets/vagrant/openbsd6.Vagrantfile') }}
@@ -188,7 +188,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Cache Vagrant Boxes
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: ~/.vagrant.d
         key: ${{ runner.os }}-vagrant-${{ env.VAGRANT_BOX }}-${{ hashFiles('assets/vagrant/openindiana.Vagrantfile') }}
@@ -217,7 +217,7 @@ jobs:
       with:
         fetch-depth: 0
     - name: Cache Go modules
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: ~/go/pkg/mod
         key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
@@ -316,7 +316,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Cache Go modules
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: ~/go/pkg/mod
         key: ${{ runner.os }}-ubuntu-go-1-16-${{ hashFiles('**/go.sum') }}
@@ -353,7 +353,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Cache Go modules
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: ~/go/pkg/mod
         key: ${{ runner.os }}-ubuntu-go-1-18-${{ hashFiles('**/go.sum') }}
@@ -386,7 +386,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Cache Go modules
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: ~/go/pkg/mod
         key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
@@ -438,7 +438,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Cache Go modules
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: ~/go/pkg/mod
         key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
@@ -503,7 +503,7 @@ jobs:
       with:
         fetch-depth: 0
     - name: Cache Go modules
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: ~/go/pkg/mod
         key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
