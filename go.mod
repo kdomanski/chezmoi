@@ -8,10 +8,9 @@ require (
 	github.com/Masterminds/sprig/v3 v3.2.2
 	github.com/Microsoft/go-winio v0.5.1 // indirect
 	github.com/ProtonMail/go-crypto v0.0.0-20211221144345-a4f6767435ab // indirect
-	github.com/alecthomas/chroma v0.9.4 // indirect
 	github.com/bmatcuk/doublestar/v4 v4.0.2
 	github.com/bradenhilton/mozillainstallhash v1.0.0
-	github.com/charmbracelet/glamour v0.3.0
+	github.com/charmbracelet/glamour v0.6.0
 	github.com/cncf/xds/go v0.0.0-20211216145620-d92e9ce0af51 // indirect
 	github.com/coreos/go-semver v0.3.0
 	github.com/danieljoos/wincred v1.1.2 // indirect
@@ -26,12 +25,9 @@ require (
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79
 	github.com/huandu/xstrings v1.3.2 // indirect
 	github.com/kevinburke/ssh_config v1.1.0 // indirect
-	github.com/microcosm-cc/bluemonday v1.0.16 // indirect
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/mapstructure v1.4.3
 	github.com/muesli/combinator v0.3.0
-	github.com/muesli/reflow v0.3.0 // indirect
-	github.com/muesli/termenv v0.9.0 // indirect
 	github.com/pelletier/go-toml v1.9.4
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
 	github.com/rogpeppe/go-internal v1.8.1
@@ -48,14 +44,12 @@ require (
 	github.com/twpayne/go-vfs/v4 v4.1.0
 	github.com/twpayne/go-xdg/v6 v6.0.0
 	github.com/xanzy/ssh-agent v0.3.1 // indirect
-	github.com/yuin/goldmark v1.4.4 // indirect
 	github.com/zalando/go-keyring v0.1.1
 	go.etcd.io/bbolt v1.3.6
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.7.0
-	golang.org/x/net v0.0.0-20211216030914-fe4d6282115f // indirect
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
-	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e
+	golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
 	google.golang.org/genproto v0.0.0-20211223182754-3ac035c7e7cb // indirect
 	gopkg.in/yaml.v2 v2.4.0
