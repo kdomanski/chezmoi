@@ -52,14 +52,14 @@ require (
 	github.com/zalando/go-keyring v0.1.1
 	go.etcd.io/bbolt v1.3.6
 	go.uber.org/atomic v1.9.0 // indirect
-	go.uber.org/multierr v1.7.0
+	go.uber.org/multierr v1.9.0
 	golang.org/x/net v0.0.0-20211216030914-fe4d6282115f // indirect
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
 	google.golang.org/genproto v0.0.0-20211223182754-3ac035c7e7cb // indirect
 	gopkg.in/yaml.v2 v2.4.0
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
+	gopkg.in/yaml.v3 v3.0.1
 	howett.net/plist v1.0.0
 )
 
